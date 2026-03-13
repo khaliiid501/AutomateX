@@ -1,0 +1,15 @@
+# Ignore dependencies
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
