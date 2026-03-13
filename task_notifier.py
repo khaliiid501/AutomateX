@@ -26,4 +26,5 @@ def check_task_deadlines(tasks):
             )
 
 # تنفيذ المهمة
-check_task_deadlines(tasks)
+if __name__ == '__main__':
+    check_task_deadlines(tasks)

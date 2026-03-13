@@ -1,6 +1,4 @@
 from datetime import datetime, timedelta
-from unittest.mock import patch
-from io import StringIO
 
 from task_notifier import send_email_notification, check_task_deadlines
 
