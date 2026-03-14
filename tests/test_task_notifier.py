@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 
-from task_notifier import send_email_notification, check_task_deadlines
+from src.task_notifier import check_task_deadlines
+from src.email_sender import send_email_notification
 
 
 def test_send_email_notification(capsys):

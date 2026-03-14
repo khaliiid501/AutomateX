@@ -1,10 +1,15 @@
 # Ignore dependencies
 node_modules/
+venv/
+*.egg-info/
+
+# Environment variables (keep .env.example)
 .env
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
 .pytest_cache/
 
 # IDE settings
@@ -14,3 +19,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Data files (keep data/tasks.json as sample)
+# data/*.json
